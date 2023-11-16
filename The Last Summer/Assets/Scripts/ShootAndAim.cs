@@ -8,6 +8,8 @@ public class ShootAndAim : MonoBehaviour
     public GameObject bulletPrefab;
     public int bulletsGun = 5;
     public GameObject balas1, balas2, balas3, balas4, balas5;
+    public float bulletCooldown = 1.5f;
+    private float lastFireTime;
 
     public void Start()
     {
@@ -22,9 +24,19 @@ public class ShootAndAim : MonoBehaviour
         }
         if (Input.GetButtonDown("Fire1"))
         {
-            Shoot();
-            StartCoroutine(reload());
-            bulletsGun--;
+
+            float timeSinceLastFire = Time.time - lastFireTime;
+
+            if (timeSinceLastFire > +bulletCooldown)
+            {
+                Shoot();
+
+                lastFireTime = Time.time;
+                StartCoroutine(reload());
+                bulletsGun--;
+            }
+            
+            
         }
         if (bulletsGun == 0)
         {
@@ -90,6 +102,7 @@ public class ShootAndAim : MonoBehaviour
         Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
         Instantiate(bulletPrefab, firePoint2.position, firePoint2.rotation);
         Instantiate(bulletPrefab, firePoint3.position, firePoint3.rotation);
+
     }
     IEnumerator reload()
     {
