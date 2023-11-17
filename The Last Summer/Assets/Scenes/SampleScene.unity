@@ -2010,6 +2010,7 @@ GameObject:
   - component: {fileID: 1546258460}
   - component: {fileID: 1546258463}
   - component: {fileID: 1546258465}
+  - component: {fileID: 1546258466}
   m_Layer: 0
   m_Name: --------MilhoMalvado--------
   m_TagString: Milho
@@ -2034,7 +2035,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.142857, y: 2.142857}
+    oldSize: {x: 1.6, y: 1.6}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -2084,7 +2085,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1006522348, guid: 7e7306734a2912747bdd8364b5ade07c, type: 3}
+  m_Sprite: {fileID: 1486363102, guid: 60a1d2e8bd7542b45a4f6c4507d02490, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2147,6 +2148,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+--- !u!114 &1546258466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1546258459}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cf47cc6471631642bc09d1f47d024c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MilhoVida: 10
 --- !u!1 &1660290382
 GameObject:
   m_ObjectHideFlags: 0
@@ -2403,6 +2417,27 @@ Transform:
   m_Father: {fileID: 338792081}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1937763214 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2758355453017721227, guid: ffc203e0c6c64af42be0d90651937151, type: 3}
+  m_PrefabInstance: {fileID: 2758355453551646405}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1937763222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1937763214}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 266228f84f239c143a12e70c611868b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 3
+  Vidas1: {fileID: 766918178}
+  Vidas2: {fileID: 190464103}
+  Vidas3: {fileID: 23206063}
 --- !u!1 &1975016115
 GameObject:
   m_ObjectHideFlags: 0

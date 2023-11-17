@@ -9,6 +9,7 @@ TagManager:
   - Milho
   - Milhochorro
   - MilhoMira
+  - bullet
   layers:
   - Default
   - TransparentFX

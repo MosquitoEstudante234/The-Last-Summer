@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: New Animation
+  m_Name: Milhoanda
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -27,7 +27,7 @@ AnimationClip:
       value: {fileID: 1321658544, guid: f7e6989a72133894c9ed2f754782d6c1, type: 3}
     - time: 0.2
       value: {fileID: -991947698, guid: f7e6989a72133894c9ed2f754782d6c1, type: 3}
-    - time: 0.26666668
+    - time: 0.28333333
       value: {fileID: 1189094457, guid: f7e6989a72133894c9ed2f754782d6c1, type: 3}
     attribute: m_Sprite
     path: 
@@ -58,7 +58,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.28333336
+    m_StopTime: 0.3
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0

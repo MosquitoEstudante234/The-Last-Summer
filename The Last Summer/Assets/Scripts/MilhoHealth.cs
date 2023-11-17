@@ -1,18 +1,26 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MilhoHealth : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public float MilhoVida = 2;
 
-    // Update is called once per frame
     void Update()
     {
-        
+        if (MilhoVida <= 0)
+        {
+           Destroy(gameObject);
+        }
     }
+
+    public void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.CompareTag("bullet"))
+        {
+            MilhoVida--;
+        }
+    }
+
 }

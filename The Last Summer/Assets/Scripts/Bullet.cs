@@ -19,12 +19,12 @@ public class Bullet : MonoBehaviour
             Destroy(collision.gameObject);
             
         }
-        if (collision.CompareTag("MilhoMira"))
+       /* if (collision.CompareTag("MilhoMira"))
         {
             Destroy(gameObject);
             Destroy(collision.gameObject);
             
-        }
+        } */
         if (collision.CompareTag("CowboyMilho"))
         {
             Destroy(gameObject);
