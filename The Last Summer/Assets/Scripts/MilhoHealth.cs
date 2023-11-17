@@ -17,7 +17,7 @@ public class MilhoHealth : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.CompareTag("bullet"))
+       if (col.CompareTag("bullet"))
         {
             MilhoVida--;
         }

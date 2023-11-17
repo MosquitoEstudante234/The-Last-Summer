@@ -8,7 +8,7 @@ public class ShootAndAim : MonoBehaviour
     public GameObject bulletPrefab;
     public int bulletsGun = 5;
     public GameObject balas1, balas2, balas3, balas4, balas5;
-    public float bulletCooldown = 1;
+    public float bulletCooldown = 0.5f;
     private float lastFireTime;
 
     public void Start()

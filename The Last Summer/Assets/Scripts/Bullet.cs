@@ -13,11 +13,10 @@ public class Bullet : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         // Destroy(collision.gameObject);
-        if (collision.CompareTag("Milho"))
+         if (collision.CompareTag("Milho"))
         {
             Destroy(gameObject);
-            Destroy(collision.gameObject);
-            
+
         }
        /* if (collision.CompareTag("MilhoMira"))
         {
