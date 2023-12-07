@@ -34,6 +34,7 @@ public class ShootAndAim : MonoBehaviour
                 lastFireTime = Time.time;
                 StartCoroutine(reload());
                 bulletsGun--;
+                FindObjectOfType<AudioManager>().Play("Shotgun");
             }
             
             

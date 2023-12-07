@@ -1012,7 +1012,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.07075471, b: 0.07075471, a: 1}
+  m_Color: {r: 0.9433962, g: 0.29814878, b: 0.29814878, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -3476,7 +3476,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Color: {r: 0.9433962, g: 0.29814878, b: 0.29814878, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -3784,7 +3784,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.23113209, b: 0.26758522, a: 1}
+  m_Color: {r: 0.9433962, g: 0.29814878, b: 0.29814878, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -5085,10 +5085,10 @@ RectTransform:
   m_Father: {fileID: 1398565610}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.24846911, y: 0.86600006}
-  m_AnchorMax: {x: 0.46, y: 0.95900005}
-  m_AnchoredPosition: {x: -124.152, y: 11.712}
-  m_SizeDelta: {x: -100.681, y: -23.584}
+  m_AnchorMin: {x: 0.2, y: 0.88577914}
+  m_AnchorMax: {x: 0.3537037, y: 0.95900005}
+  m_AnchoredPosition: {x: 0.84802246, y: 2.711975}
+  m_SizeDelta: {x: -6.6809998, y: -5.5839996}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1198608843
 MonoBehaviour:
@@ -5545,10 +5545,10 @@ RectTransform:
   m_Father: {fileID: 1398565610}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.012444446, y: 0.734}
-  m_AnchorMax: {x: 0.19176544, y: 0.84300005}
-  m_AnchoredPosition: {x: 0.5350342, y: 0.4960022}
-  m_SizeDelta: {x: -0.55000305, y: -1.7969971}
+  m_AnchorMin: {x: 0.06056791, y: 0.734}
+  m_AnchorMax: {x: 0.24176545, y: 0.84300005}
+  m_AnchoredPosition: {x: -2, y: 0.4960022}
+  m_SizeDelta: {x: -2.550003, y: -1.7969971}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1287875950
 MonoBehaviour:
@@ -5644,10 +5644,10 @@ RectTransform:
   m_Father: {fileID: 1398565610}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.10144445, y: 0.86600006}
-  m_AnchorMax: {x: 0.23612346, y: 0.95900005}
-  m_AnchoredPosition: {x: -30.723022, y: 11.712006}
-  m_SizeDelta: {x: -64.38, y: -23.584}
+  m_AnchorMin: {x: 0.10144445, y: 0.88577914}
+  m_AnchorMax: {x: 0.2, y: 0.95900005}
+  m_AnchoredPosition: {x: -1.7230225, y: 2.711975}
+  m_SizeDelta: {x: -6.3799973, y: -5.5839996}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1296688326
 MonoBehaviour:
@@ -11559,16 +11559,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sounds:
-  - name: 
-    clip: {fileID: 0}
-    volume: 0
-    pitch: 0
+  - name: Shotgun
+    clip: {fileID: 8300000, guid: ab98a2d2b6c35cf41981934525054da7, type: 3}
+    volume: 1
+    pitch: 1
     loop: 0
     source: {fileID: 0}
-  - name: 
-    clip: {fileID: 0}
-    volume: 0
-    pitch: 0
+  - name: MilhoHit
+    clip: {fileID: 8300000, guid: 5656ecd535f93d041afe15b974a2be24, type: 3}
+    volume: 1
+    pitch: 1
     loop: 0
     source: {fileID: 0}
   Audiogamer: {fileID: 0}
@@ -11835,7 +11835,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MilhoVida: 3
-  vinte: 20
 --- !u!1 &1551272341
 GameObject:
   m_ObjectHideFlags: 0
@@ -12696,12 +12695,12 @@ GameObject:
   - component: {fileID: 2036294537}
   - component: {fileID: 2036294540}
   m_Layer: 5
-  m_Name: Button (Legacy)
+  m_Name: Interagir
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2036294536
 RectTransform:
   m_ObjectHideFlags: 0

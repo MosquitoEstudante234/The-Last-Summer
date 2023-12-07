@@ -7,7 +7,6 @@ using UnityEngine.SocialPlatforms.Impl;
 public class MilhoHealth : MonoBehaviour
 {
     public float MilhoVida = 2;
-    public float vinte = 20;
 
     void Update()
     {
