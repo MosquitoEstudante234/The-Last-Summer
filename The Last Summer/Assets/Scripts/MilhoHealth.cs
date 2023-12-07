@@ -2,16 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.SocialPlatforms.Impl;
 
 public class MilhoHealth : MonoBehaviour
 {
     public float MilhoVida = 2;
+    public float vinte = 20;
 
     void Update()
     {
         if (MilhoVida <= 0)
         {
            Destroy(gameObject);
+            FindObjectOfType<Score>().score += 20;
         }
     }
 
