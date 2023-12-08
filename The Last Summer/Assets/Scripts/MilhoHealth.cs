@@ -22,6 +22,7 @@ public class MilhoHealth : MonoBehaviour
        if (col.CompareTag("bullet"))
         {
             MilhoVida--;
+            FindObjectOfType<AudioManager>().Play("MilhoHit");
         }
     }
 
