@@ -21,15 +21,6 @@ public class Score : MonoBehaviour
         scoreTxt.text = score.ToString();
 
     }
-    private void OnTriggerEnter2D(Collider2D col)
-    {
-
-        if (col.CompareTag("") == true)
-        {
-            score = score + 1;
-            Destroy(col.gameObject);
-        }
-       
-    }
+   
 
 }

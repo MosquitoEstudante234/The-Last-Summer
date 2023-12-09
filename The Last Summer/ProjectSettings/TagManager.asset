@@ -16,6 +16,8 @@ TagManager:
   - Filho
   - Cama
   - Faders
+  - Final
+  - PortaCeleiro
   layers:
   - Default
   - TransparentFX

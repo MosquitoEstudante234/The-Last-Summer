@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class PlayerHealth : MonoBehaviour
 {
    public float health = 3;
-    public GameObject Vidas1, Vidas2, Vidas3;
+    public GameObject Vidas1, Vidas2, Vidas3, Death;
 
     public void Start()
     {
@@ -18,7 +18,9 @@ public class PlayerHealth : MonoBehaviour
         
         if (health == 0)
         {
-            SceneManager.LoadScene("cena1");
+            Death.SetActive(true);
+            Time.timeScale = 0;
+            health++;
         }
         if (health < 0)
         {

@@ -19,4 +19,14 @@ public class MenuGamer : MonoBehaviour
     {
         Time.timeScale = 1;
     }
+    public void Renascer()
+    {
+        SceneManager.LoadScene("cena1");
+        Time.timeScale = 1;
+    }
+    public void BackToMenu()
+    {
+        SceneManager.LoadScene("cena0");
+        Time.timeScale = 1;
+    }
 }

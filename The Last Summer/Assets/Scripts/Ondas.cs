@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class Ondas : MonoBehaviour
 {
  
-    public GameObject Spawner1, Spawner2, Spawner3, Spawner4, Spawner5, Spawner6, Spawner7, Spawner8, Spawner9, Objetivos, TextoOnda;
+    public GameObject Spawner1, Spawner2, Spawner3, Spawner4, Spawner5, Spawner6, Spawner7, Spawner8, Spawner9, Objetivos, TextoOnda, FinalGame, Obfinal;
     public Text ondasTxt;
     public int ondas;
     private void Start()
@@ -76,6 +76,8 @@ public class Ondas : MonoBehaviour
       ondas = 6;
       Objetivos.SetActive(false);
       TextoOnda.SetActive(false);
+      FinalGame.SetActive(true);
+      Obfinal.SetActive(true);
      }
     }
 
