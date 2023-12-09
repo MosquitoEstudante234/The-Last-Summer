@@ -10,6 +10,12 @@ TagManager:
   - Milhochorro
   - MilhoMira
   - bullet
+  - CaixaNormal
+  - Panfleto
+  - Diario
+  - Filho
+  - Cama
+  - Faders
   layers:
   - Default
   - TransparentFX
