@@ -29,4 +29,9 @@ public class MenuGamer : MonoBehaviour
         SceneManager.LoadScene("cena0");
         Time.timeScale = 1;
     }
+    public void EndlessMode()
+    {
+        SceneManager.LoadScene("cena3");
+        Time.timeScale = 1;
+    }
 }
